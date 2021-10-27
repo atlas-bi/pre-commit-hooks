@@ -1,0 +1,6 @@
+- id: clean_model_context
+  name: Clean model context
+  description: Remove the scaffold connection string from Atlas_WebContext.cs
+  entry: clean_model_context
+  language: python
+  always_run: true

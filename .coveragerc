@@ -1,0 +1,9 @@
+[run]
+source = pre_commit_hooks
+branch = True
+
+[report]
+omit =
+    tests/*
+show_missing = true
+skip_covered = True
