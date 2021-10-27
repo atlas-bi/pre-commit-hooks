@@ -1,5 +1,7 @@
 # Pre-commit hooks
 
+[![codecov](https://codecov.io/gh/atlas-bi/pre-commit-hooks/branch/master/graph/badge.svg?token=ZPTK2KIAfN)](https://codecov.io/gh/atlas-bi/pre-commit-hooks)
+
 ## Clean Model Context
 
 This pre-commit hook is used to remove connection strings from a dotnet model context from the auto generated (scaffold) model context. Dotnet inserts the connection string that was used to generate the model, and adds a note that it should be removed :) Thank Dotnet for adding an extra step for developers to loose sleep over 😢

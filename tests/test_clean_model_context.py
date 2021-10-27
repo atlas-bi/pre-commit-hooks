@@ -4,7 +4,7 @@ from pre_commit_hooks.clean_model_context import main
 from testing.util import get_resource_path
 
 
-def test_failing_file(tmpdir):
+def test_failing_file(tmpdir) -> None:
     f = tmpdir.join("Atlas_WebContext.cs")
     f.write_text(
         Path(get_resource_path("Atlas_WebContext.cs")).read_text("utf8"),
@@ -20,7 +20,7 @@ def test_no_file():
     assert main([]) == 0
 
 
-def test_other_file(tmpdir):
+def test_other_file(tmpdir) -> None:
     f = tmpdir.join("other.cs")
     f.write_text(
         Path(get_resource_path("Atlas_WebContext.cs")).read_text("utf8"),

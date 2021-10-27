@@ -1,5 +1,5 @@
 import subprocess
-from typing import Any, List, Optional, Set
+from typing import Any, Optional
 
 import pytest
 
