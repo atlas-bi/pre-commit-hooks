@@ -33,11 +33,11 @@ packages = [
 ]
 readme = "README.md"
 repository = "https://github.com/atlas-bi/pre-commit-hooks"
-version = "0.0.1"
+version = "0.0.2"
 
 [tool.poetry.dependencies]
 coverage = {version = "^7.0", optional = true}
-pytest = {version = "^7.0.0", optional = true}
+pytest = {version = "^8.0.0", optional = true}
 pytest-cov = {version = "^4.0.0", optional = true}
 python = "^3.6.2,<4.0"
 
